@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.rendu170120.MainActivity">
+
+    <TextView
+        android:id="@+id/mainActivity_bonjour_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:text="Bonjour! Il vous reste 20 lettres."></TextView>
+
+    <EditText
+        android:id="@+id/mainActivity_entrerNom_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Quel est votre nom?"/>
+
+    <Button
+        android:id="@+id/mainActivity_entrer_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Entrer!"/>
+
+</LinearLayout>
